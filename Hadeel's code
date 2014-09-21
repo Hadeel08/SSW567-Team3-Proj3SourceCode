@@ -1,0 +1,59 @@
+/*
+		// Defining the program parameters
+		int SwimLength, SwimWidth, SwimDepth1, SwimDepth2;
+		String StringInput;
+		String customer;
+		Scanner scan = new Scanner(System.in);
+		
+		// Taking the name of the customer
+		System.out.println("Program for calculating the time of preparing a swim pool");
+		System.out.print("Please enter your name:   ");
+		customer = scan.nextLine();
+	
+		// Taking the length of the customer's swimming pool
+		System.out.print("Please enter your swimming pool length:   "); 
+		StringInput = scan.nextLine();
+		while (isIntegerAndPositive(StringInput) != true){
+			System.out.print("Please enter your swimming pool length as a positive numeric value:   ");
+			StringInput = scan.nextLine();
+		}
+		SwimLength = Integer.parseInt(StringInput);
+		
+		// Taking the width of the customer's swimming pool
+		System.out.print("Please enter your swimming pool width:   ");
+		StringInput = scan.nextLine();
+		while (isIntegerAndPositive(StringInput) != true){
+			System.out.print("Please enter your swimming pool width as a positive numeric value:   ");
+			StringInput = scan.nextLine();
+		}
+		SwimWidth = Integer.parseInt(StringInput);
+		
+		// Taking the shallow end depth of the customer's swimming pool
+		System.out.print("Please enter your swimming pool shallow end depth:   ");
+		StringInput = scan.nextLine();
+		while (isIntegerAndPositive(StringInput) != true){
+			System.out.print("Please enter your swimming pool shallow end depth as a positive numeric value:   ");
+			StringInput = scan.nextLine();
+		}
+		SwimDepth1 = Integer.parseInt(StringInput);
+		
+		// Taking the deep end depth of the customer's swimming pool
+		System.out.print("Please enter your swimming pool deep end depth:   ");
+		StringInput = scan.nextLine();
+		while (isIntegerAndPositive(StringInput) != true){
+			System.out.print("Please enter your swimming pool deep end depth as a positive numeric value:   ");
+			StringInput = scan.nextLine();
+		}
+		SwimDepth2 = Integer.parseInt(StringInput);
+		
+		scan.close(); // Close the Scanner object
+		
+		// Printing the parameters in lines
+		System.out.println();
+		System.out.println("#############################");
+		System.out.println("Your name is  " + customer);
+		System.out.println("Your swimming pool length is  " + SwimLength + " feet");
+		System.out.println("Your swimming pool width is  " + SwimWidth + " feet");
+		System.out.println("Your swimming pool shallow end depth is  " + SwimDepth1 + " feet");
+		System.out.println("Your swimming pool deep end depth is  " + SwimDepth2 + " feet");
+		*/
